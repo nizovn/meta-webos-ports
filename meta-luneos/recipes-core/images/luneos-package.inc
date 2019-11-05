@@ -17,6 +17,9 @@ inherit webos_ports_repo kernel-artifact-names
 PV = "1.0.3+git${SRCPV}"
 SRCREV = "6ac8c9ebc6af50cfd424ab423bb6a54d13764144"
 
+WEBOS_GIT_PARAM_BRANCH_aarch64 = "twrp-tar-workaround"
+SRCREV_aarch64 = "ad157df224ddc6ece8d641309c8c4b606c7650b4"
+
 WEBOS_REPO_NAME = "android-update-package"
 SRC_URI = "${WEBOS_PORTS_GIT_REPO_COMPLETE}"
 
